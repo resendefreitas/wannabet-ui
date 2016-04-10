@@ -1,13 +1,13 @@
 import React from 'react';
 import { NICE, SUPER_NICE } from './colors';
 
-import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <Navbar />
         <h1 style={{color: NICE}} >
           HELLO
         </h1>
