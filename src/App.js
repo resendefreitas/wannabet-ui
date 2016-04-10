@@ -1,17 +1,18 @@
-import React, { Component } from 'react';
-import { NICE, SUPER_NICE } from './colors';
+import React from 'react';
 
-export class App extends Component {
+import Navbar from './components/Navbar/Navbar';
+
+class App extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{color: NICE}} >
-          HELLO
+        <Navbar />
+        <h1>
+          This is home page
         </h1>
-        <h2 style={{color: NICE}} >
-          WORLD
-        </h2>
       </div>
     );
   }
 }
+
+export default App;
