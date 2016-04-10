@@ -7,8 +7,7 @@ import Menu from './components/Menu/Menu';
 
 render((
   <Router history={browserHistory}>
-    <Route path="/" component={App}>
-      <Route path="menu" component={Menu}/>
-    </Route>
+    <Route path="/" component={App}/>
+    <Route path="menu" component={Menu}/>
   </Router>
 ), document.getElementById('root'));
