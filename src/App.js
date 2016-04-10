@@ -8,12 +8,9 @@ class App extends React.Component {
     return (
       <div>
         <Navbar />
-        <h1 style={{color: NICE}} >
-          HELLO
+        <h1>
+          Home
         </h1>
-        <h2 style={{color: NICE}} >
-          WORLD
-        </h2>
       </div>
     );
   }
