@@ -1,10 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { NICE, SUPER_NICE } from './colors';
 
-export class App extends Component {
+import Header from './components/Header/Header';
+
+class App extends React.Component {
   render() {
     return (
       <div>
+        <Header />
         <h1 style={{color: NICE}} >
           HELLO
         </h1>
@@ -15,3 +18,5 @@ export class App extends Component {
     );
   }
 }
+
+export default App;
