@@ -1,5 +1,4 @@
 import React from 'react';
-import { NICE, SUPER_NICE } from './colors';
 
 import Navbar from './components/Navbar/Navbar';
 
