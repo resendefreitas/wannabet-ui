@@ -8,7 +8,7 @@ class App extends React.Component {
       <div>
         <Navbar />
         <h1>
-          Home
+          This is home page
         </h1>
       </div>
     );

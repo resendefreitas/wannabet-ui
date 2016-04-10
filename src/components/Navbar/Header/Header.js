@@ -6,9 +6,9 @@ class Header extends React.Component {
     return (
       <div className="Header row">
         <div className="col-lg-12 text-center">
-          <h1 className="Header__title">
+          <h3 className="Header__title">
             WANNABET
-          </h1>
+          </h3>
         </div>
       </div>
     );
