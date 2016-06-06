@@ -5,7 +5,7 @@ class Menu extends React.Component {
     return (
       <div>
         <h1>
-          This is menu page
+	  this is an actual menu, true story
         </h1>
       </div>
     );
